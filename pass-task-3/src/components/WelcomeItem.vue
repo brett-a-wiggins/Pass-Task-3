@@ -1,13 +1,32 @@
+<script setup>
+import { ref } from 'vue'
+var open = ref(false);
+// A "ref" is a reactive data source that stores a value.
+// Technically, we don't need to wrap the string with ref()
+// in order to display it, but we will see in the next
+// example why it is needed if we ever intend to change
+// the value.
+
+
+function openClose() {
+  
+  open.value = !(open.value);
+}
+</script>
+
 <template>
-  <div class="item">
+  <div class="item" @click="openClose">
     <i>
-      <slot name="icon"></slot>
+      <slot name="icon" ></slot>
     </i>
     <div class="details">
       <h3>
         <slot name="heading"></slot>
       </h3>
-      <slot></slot>
+
+      <div v-if="open">
+        <slot></slot>
+      </div>
     </div>
   </div>
 </template>
@@ -82,5 +101,8 @@ h3 {
   .item:last-of-type:after {
     display: none;
   }
+}
+div{
+  cursor: pointer;
 }
 </style>

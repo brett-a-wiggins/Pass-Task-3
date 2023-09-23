@@ -5,84 +5,79 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+
 </script>
+
 
 <template>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
-
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    <template #heading>Education</template>
+    2021 - Certificate IV in Cyber Secruity<br/>
+    <span class="school">Box Hill Institute.</span><br/>
+    <br/>
+    2022 - Advanced Diploma in Cyber Security<br/>
+    <span class="school">Box Hill Institute</span><br/>
+    <br/>
+    2023-present - Bachelor of Cyber Security<br/>
+    <span class="school">Deakin University</span>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Work</template>
+    Combat Engineer - Australian Army<br/>
+    Console Operator - Horizon Petrolium<br/>
+    IT Clerk - Latrobe Regional Hospital<br/>
+    General Labourer - SuperSoil Garden Supplies<br/>
+    Help Desk - Web Hosting Company<br/>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <template #heading>Code</template>
+    Find my code on Github!<br/>
+    <a href="https://github.com/brett-a-wiggins/Pass-Task-1" target="_blank">SIT120 Pass Task 1</a><br/>
+    <a href="https://github.com/brett-a-wiggins/Pass-Task-2" target="_blank">SIT120 Pass Tast 2</a><br/>
+    
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Community</template>
+    <template #heading>Community Work</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    2018 - Marine Radio Operator - Australian Volunteer Coast Guard<br/>
+    2020 - Volunteer Repsonder - State Emergency Service<br/>
+
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <template #heading>Follow Me</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+
+    <a title="Facebook, Public domain, via Wikimedia Commons" href="https://www.facebook.com/bawig.one/" target="_blank"><img width="64" alt="2021 Facebook icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/128px-2021_Facebook_icon.svg.png"></a>
+
+
+
+
   </WelcomeItem>
 </template>
+
+<style scoped>
+.school{
+  font-weight: bold;
+}
+</style>
